@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="E:\2nd year web project\complete collage website\IMAGES">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/6c1a213cde.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class ="subheader">
+        <nav>
+            <a href="index2.html"><img src="IMAGES/logo.png"></a>
+            <div class="navlinks" id="'navL">
+            <i class="fa-solid fa-door-closed" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index2.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+            <i class="fa-solid fa-person-digging" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p style="color: black;"> At JUET, we are committed to providing a diverse and robust selection of courses to meet the needs and aspirations of our students. Our undergraduate programs cover a broad spectrum of disciplines, including Business Administration, Engineering, Liberal Arts, and Health Sciences, each designed to provide a strong foundation and specialized knowledge. </p><div class="row">
+            <div class="coursecol">
+                <h3>Intermediate</h3>
+                <p>Intermediate courses are designed for students who have completed foundational coursework and are ready to delve deeper into their chosen fields of study. These courses build on basic concepts, providing more specialized knowledge and skills essential for advanced study or professional practice.</p>
+            </div>
+            <div class="coursecol">
+                <h3>Degree</h3>
+                <p>At JUET, our degree programs are designed to provide students with a comprehensive education that balances academic rigor with real-world application. Whether you're pursuing an associate, bachelor's, or master's degree, our programs are structured to equip you with the knowledge, skills, and experiences necessary to succeed in your chosen field.</p>
+            </div>
+            <div class="coursecol">
+                <h3>Post Graduate</h3>
+                <p>Our postgraduate programs at JUET are designed for students who have already completed an undergraduate degree and wish to further specialize in their chosen field. These advanced degrees offer deep academic and professional expertise, preparing graduates for leadership roles, research, or specialized professional practice.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faci">
+        <h1>Our Facilities</h1><br>
+        <p style="color: black;">Our facilities are designed to provide you with the resources and spaces you need to succeed academically, stay active, and enjoy a well-rounded college experience.</p>
+        <div class="row">
+            <div class="facicol">
+                <img src="IMAGES/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p style="color: black;">Featuring cutting-edge technology, including advanced search tools and digital databases, the library provides students and faculty with the resources they need to excel in their studies and research projects. Comfortable study areas, collaborative workspaces, and expert librarian support ensure that everyone has access to the information and assistance they require.</p>
+            </div>
+            <div class="facicol">
+                <img src="IMAGES/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p style="color: black;">The playground is not just a place for physical activity; it's a vibrant hub for building community, encouraging teamwork, and enjoying a balanced college experience. Whether you're an athlete, a fitness enthusiast, or just looking for a place to relax, our playground is designed to meet your needs and enhance your college life.</p>
+            </div>
+            <div class="facicol">
+                <img src="IMAGES/cafeteria.png" alt="">
+                <h3>Tasty And Healthy</h3>
+                <p style="color: black;">Welcome to the Tasty and Healthy Food Café at JUET, where nutrition meets flavor in a vibrant and welcoming environment. Our café is dedicated to offering a diverse range of delicious and wholesome food options designed to support your well-being and fuel your day.</p>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="f">
+        <h4>About Us</h4>
+        <p>JUET is dedicated to fostering academic excellence, innovation, and personal growth. With a diverse range of programs,</p><p> we empower students to achieve their full potential and make a positive impact on the world. Join us in our mission to inspire, educate, and lead.</p>
+        <div class="i">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> By Simple Tutorials</p>
+    </section>
+
+    <script type="text/javascript">
+        var navL=document.getElementById("navL");
+        function showMenu(){
+            navL.style.right="0";
+        }
+        function hideMenu(){
+            navL.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

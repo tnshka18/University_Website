@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="E:\2nd year web project\complete collage website\IMAGES">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/6c1a213cde.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index2.html"><img src="IMAGES/logo.png"></a>
+            <div class="navlinks" id="navL">
+            <i class="fa-solid fa-door-closed" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index2.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="BLOG.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+        <i class="fa-solid fa-person-digging" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.4592317283345!2d77.15869901426879!3d24.43484756820267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397aff3abbbad69f%3A0x9af2aa865b395399!2sJaypee%20University%20Of%20Engineering%20And%20Technology%2C%20Guna!5e0!3m2!1sen!2sin!4v1664280944577!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contactus">
+        <div class="row">
+            <div class="contactc">
+                <div class="">
+                    <i class="fa-duatone fa-house-user"></i>
+                    <span><h5>XYZ Road, ABC Building</h5><p style="color: rgb(52, 47, 47);">Bangalore , Karnataka , IN</p></span>
+                </div>
+                <div class="">
+                    <i class="fa-solid fa-phone"></i>
+                    <span><h5>+91 99228XXXXX</h5>
+                    <p style="color: rgb(52, 47, 47);">9 to 12 Saturday IN</p></span>
+                </div>
+                <div class="">
+                    <i class="fa-duatone fa-envelope"></i>
+                    <span><h5>JUET , GUNA</h5>
+                    <p style="color: rgb(52, 47, 47);">Place to explore yourself</p></span>
+                </div>
+            </div>
+            <div class="contactc">
+                <form class="" action="filehandler.php" method="post">
+                    <input type ="text" name="name" placeholder="Enter Your Name" required>
+                    <input type ="email" name="email" placeholder="Enter Your E-Mail" required>
+                    <input type ="text" name="subject" placeholder="Enter Your Subject" required>
+                    <textarea name="name" rows="4" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="herobtn red">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="f">
+        <h4>About Us</h4>
+        <p>JUET is dedicated to fostering academic excellence, innovation, and personal growth. With a diverse range of programs,</p><p> we empower students to achieve their full potential and make a positive impact on the world. Join us in our mission to inspire, educate, and lead.</p>
+        <div class="i">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> By Simple Tutorials</p>
+    </section>
+
+    <script type="text/javascript">
+        var navL=document.getElementById("navL");
+        function showMenu(){
+            navL.style.right="0";
+        } 
+        function hideMenu(){
+            navL.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

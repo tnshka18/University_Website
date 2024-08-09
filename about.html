@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="IMAGES/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Roboto:ital,wght@1,100&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/6c1a213cde.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class ="subheader">
+        <nav>
+            <a href="index2.html"><img src="IMAGES/logo.png"></a>
+            <div class="navlinks" id="navL">
+             <i class="fa-solid fa-door-closed" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index2.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">HOME</a></li>
+             </ul>
+            </div>
+        <i class="fa-solid fa-person-digging" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about">
+        <div class="row">
+            <div class="aboutc">
+                <h1>We are the Worlds's Largest University</h1>
+                <p style="color: black;">“Welcome to JUET, a hub of innovation, learning, and personal growth. Established in 2003, our college has become a cornerstone of academic excellence and community engagement, dedicated to nurturing the leaders of tomorrow.”</p>
+                <h1>Our mission</h1>
+                <p style="color: black;"> At JUET, our mission is to empower students with the knowledge, skills, and values necessary to thrive in an ever-evolving global landscape. We are committed to fostering a dynamic and inclusive environment where every student is encouraged to pursue their passions, challenge the status quo, and contribute meaningfully to society.</p>
+                <h1>Academic Excellence</h1>
+                <p style="color: black;">We offer a wide range of programs across 50+ disciplines, from CSE to PhD, ensuring that our students receive a comprehensive education that prepares them for their chosen careers. Our distinguished faculty, composed of industry experts and leading researchers, bring a wealth of knowledge and real-world experience to the classroom, inspiring students to reach new heights.</p>
+                
+                <a href="" class="herobtn red"><b>EXPLORE NOW</b></a>
+            </div>
+            <div class="aboutc">
+                <img src="IMAGES/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="f">
+        <h4>About Us</h4>
+        <p>JUET is dedicated to fostering academic excellence, innovation, and personal growth. With a diverse range of programs,</p><p> we empower students to achieve their full potential and make a positive impact on the world. Join us in our mission to inspire, educate, and lead.</p>
+        <div class="i">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> By Simple Tutorials</p>
+    </section>
+
+    <script type="text/javascript">
+        var navL=document.getElementById("navL");
+        function showMenu(){
+            navL.style.right="0";
+        }
+        function hideMenu(){
+            navL.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="E:\2nd year web project\complete collage website\IMAGES">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/6c1a213cde.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index2.html"><img src="IMAGES/logo.png"></a>
+            <div class="navlinks" id="navL">
+            <i class="fa-solid fa-door-closed" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index2.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+        <i class="fa-solid fa-person-digging" onclick="shpwMenu()"></i>
+        </nav>
+        <h1>Our Certificates and Online Programs For 2024</h1>
+    </section>
+
+    <section class="blogc">
+        <div class="row">
+            <div class="blog1">
+                <img src="IMAGES/certificate.jpg" alt="">
+                <h2> Our Certificates and Online Programs for 2024</h2><br>
+                    <p>At JUET, we’re excited to offer a diverse range of certificates and online programs in 2024, designed to fit your busy lifestyle and help you achieve your professional goals. </p><br><p>Whether you're looking to advance in your current career or explore a new field, our flexible and industry-aligned courses provide the skills and credentials you need to succeed.</p><br><p>Our online programs offer the same high-quality education as our on-campus offerings, with the added convenience of learning from anywhere. Designed for flexibility,</p>
+                <div class="commentb">
+                    <h3>Leave Comment</h3>
+                    <form class="commentf" action="index2.html" method="post">
+                        <input type="text" placeholder="Enter Name" name="" value="">
+                        <input type="email" placeholder="Enter Email" name="" value="">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="herobtn red">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blogr">
+                <h3>Post Categories</h3>
+                <div class="">
+                    <span><b>Business Categories</b></span>
+                    <span>21</span>
+                </div>
+                <div class="">
+                    <span><b>Data Science</b></span>
+                    <span>20</span>
+                </div>
+                <div class="">
+                    <span><b>Machine Learning</b></span>
+                    <span>22</span>
+                </div>
+                <div class="">
+                    <span><b>Computer Science</b></span>
+                    <span>24</span>
+                </div>
+                <div class="">
+                    <span><b>Arts</b></span>
+                    <span>26</span>
+                </div>
+                <div class="">
+                    <span><b>Journalism</b></span>
+                    <span>28</span>
+                </div>
+                <div class="">
+                    <span><b>Commerce</b></span>
+                    <span>23</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="f">
+        <h4>About Us</h4>
+        <p>JUET is dedicated to fostering academic excellence, innovation, and personal growth. With a diverse range of programs,</p><p> we empower students to achieve their full potential and make a positive impact on the world. Join us in our mission to inspire, educate, and lead.</p>
+        <div class="i">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <p>Made with<i class="fa-solid fa-heart"></i> By Simple Tutorials</p>
+    </section>
+
+    <script type="text/javascript">
+        var navL=document.getElementById("navL");
+        function showMenu(){
+            navL.style.right="0";
+        }
+        function hideMenu(){
+            navL.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
